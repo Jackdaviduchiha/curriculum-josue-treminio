@@ -1,0 +1,740 @@
+ *
+/*reseteo de box*/
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 70%;
+
+   /*para colocar un maximo de cierta cantidad del hoja
+    max-width: 1000px;*/
+    margin: auto;
+    overflow: hidden;
+}
+/*Color de los titulos*/
+.titulo {
+    color: hsl(191, 50%, 51%, 0.664);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Header--------------------------------------------------------------------------------------------------------------------------------- */
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #42a8c0;
+    
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #388adc75, hsl(191, 50%, 51%, 0.664)), url(../img/1778829c66b7800a38a5c6ec92827c482fc056cb.jpeg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsl(191, 50%, 51%, 0.664), hsl(191, 50%, 51%, 0.664)), url(../img/1778829c66b7800a38a5c6ec92827c482fc056cb.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color:#fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+/*Efecto curvo----------------------------------------------------------------------------------------------------------------*/
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Información personal-------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+.h3.nombre {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: #fff;
+}
+
+/*etiqueta contenedora sobre nosotros*/
+h4{
+    background-color: hsl(191, 50%, 51%, 0.664);
+    border-radius: 10px;
+    padding: 5px;
+}
+.par {
+    
+    width: 400px;
+    height: 10px;
+}
+.contenido-textos p span{
+    background: hsl(191, 50%, 51%, 0.664);
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 15%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: hsl(191, 50%, 51%, 0.664);
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Portafolio -------------------------------------------------------------------------------------------------------------------------*/
+
+.profile{
+    height: 100px !important;
+    border-radius: 50px;
+}
+
+h3.info{
+    color: hsl(191, 50%, 51%, 0.664);
+  
+    margin: 10px 10px 10px 0px;
+    font-size:x-large;
+
+    
+  background: hsl(191, 50%, 51%, 0.664);
+  width: 50%;
+  
+  color: #Fff;
+  font-size: 25px;
+  letter-spacing: 5px;
+  top: 50%;
+  text-align: center;
+  
+    border-radius: 5px;
+
+
+}
+
+h2.titulo{
+    
+    
+    background: hsl(191, 50%, 51%, 0.664);
+  
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+  color: #fff;
+  font-size: 40px;
+  letter-spacing: 5px;
+  top: 50%;
+  margin-bottom: 10px;
+  margin-top: -40px;
+  /*Sobra en los textox*/
+  /*text-shadow: -1px -1px 0px hsla(210, 70%, 54%, 0.664),
+    3px 3px 0px hsla(210, 70%, 54%, 0.664),
+    6px 6px 0px hsla(210, 70%, 54%, 0.664);*/
+
+    border-radius: 5px;
+}
+.portafolio{
+    background: #f2f2f2;
+}
+.portafolio2{
+    background: #fff;
+}
+.conocimientos {
+    background-color: #f2f2f2;;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+        
+.imagen-port{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    margin-bottom: 010px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+/*Efecto Morado*/
+.hover-galeria{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsl(191, 50%, 51%, 0.664);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* conocimientos--------------------------------------------------------------------------------------------------------------------------------*/
+
+.cards2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card2 {
+    margin: 20px 0;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    /* CUADRO ALREDEDOR DE LA IMAGEN */
+    box-shadow: 0px 0px 4px 0 rgba(52, 73, 94, 0.849);
+   
+    
+}
+
+.cards2 img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+  
+}
+
+.contenedor1 {
+    width: 70%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+h4.con {
+    margin-top: 5PX;
+    background-color:  hsl(191, 50%, 51%, 0.664) ;
+    color: black;
+
+}
+
+/* Clients --------------------------------------------------------------------------------------------------------------------------------*/
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: hsl(191, 50%, 51%, 0.664);
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #fff;
+}
+.card2 h4 {
+    color: #fff ;
+}
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/*  caracteristicas ---------------------------------------------------------------------------------------------------------------------------------------*/
+
+.about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+
+.servicio-cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 90%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* footer ------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    background: hsl(191, 50%, 51%, 0.664);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #3F8AD5;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #fff;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #fff;
+}
+
+
+
+
+/*Botont de WHATSAP---------------------------------------------------------------------------------------------------------------------------*/
+
+body{
+    background-color: rgba(175, 204, 172);
+}
+
+.container1-boton{
+    background-color: hsl(191, 50%, 51%, 0.664);/*#2e6329;*/
+    border: 1px solid #fff;
+    position: fixed;
+    z-index: 999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 25px;
+    padding: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container1-boton:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.boton{
+    width: 80px;
+    transition: ease 1s;
+}
+
+@keyframes efecto{
+    0%{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+    }
+    100%{
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-about-us{
+        width: 90%;
+    }
+
+    /* Galeria */
+
+    .imagen-port{
+        width: 44%;
+    }
+
+    /* Clientes */
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card{
+        width: 90%;
+    }
+
+    .cards .card:first-child{
+        margin-bottom: 30px;
+    }
+
+    /* servicios */
+
+    .servicio-cont{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .servicio-ind{
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+        margin-bottom: 60px;
+    }
+
+    .servicio-ind img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    .textos-header h1{
+        font-size: 35px;
+    }
+
+    .textos-header h2{
+        font-size: 20px;
+    }
+
+    /* ABOUT US */
+
+    .imagen-about-us{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 95%;
+    }
+
+    /* Galeria */
+
+    .imagen-port{
+        width: 95%;
+    }
+
+    /* Clients */
+
+    .cards .card{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards .card img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* Footer */
+
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content-foo h4{
+        border: none;
+    }
+
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+    }
+    h3.info{
+        color: hsl(191, 50%, 51%, 0.664);
+      
+        margin: 10px 10px 10px 0px;
+        font-size:larger;
+    
+        
+      background: hsl(191, 50%, 51%, 0.664);
+      width: 100%;
+      
+      color: #Fff;
+      font-size: 25px;
+      letter-spacing: 5px;
+      top: 50%;
+      text-align: center;
+      
+        border-radius: 5px;
+    
+    
+    }
+}
+
+
+/* Responsivo conocimientos*/
+@media screen and (max-width:900px) {
+    .card2 {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width:610px) {
+    header .textos {
+        margin-top: 130px;
+    }
+
+    header .titulo {
+        font-size: 75px;
+    }
+
+    .none {
+        display: none
+    }
+
+    .imagenes {
+        flex-grow: 1;
+    }
+
+    .card2 {
+        width: 90%;
+    }
+
+    .fondo {
+        height: auto;
+    }
+
+    .especial {
+        display: none;
+    }
+
+    .cliente {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    header .textos {
+        margin-top: 100px;
+    }
+
+    header .titulo {
+        font-size: 65px;
+    }
+
+    header .subtitulo {
+        font-size: 25px;
+        margin-bottom: 32px;
+    }
+
+    .sobre-nosotros {
+        font-size: 46px;
+    }
+
+    .slogan {
+        font-size: 20px;
+    }
+
+    .titulo-patrocinadores {
+        font-size: 46px;
+    }
+
+    .subtitulo-patrocinadores {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
